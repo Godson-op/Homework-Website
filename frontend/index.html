@@ -3,35 +3,60 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+    <link rel="icon" href="https://gradepowerlearning.com/wp-content/uploads/2020/05/icon-online-learning.png" type="image/icon type">
+
+    <title>Homework Help</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark sticky-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Valorant</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#brand"> <span class="text-warning ">Homework Help</span>..</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Aim</a>
+              <a class="nav-link active" href="#home"> <i class="bi-house-door"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Movement</a>
+              <a class="nav-link" href="#comissions"> Commissions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Utility</a>
+              <a class="nav-link" href="#learning"><i class="bi-book"></i> Learning</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
+              <a class="nav-link" href="#work_with_us"> Work with us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  
+
+    <!-- Showcase -->
+    <section class="bg-black text-light p-5 text-center">
+      <div class="container">
+        <div class="d-lg-flex">
+          <div>
+            <h1> <span class="text-danger">Deadline Close?</span > worry not, we got you </h1>
+            <p class="lead">get work done by professionals, at reasonable price$ </p>
+            <button class="btn btn-primary btn-md"> <i class="bi-search"></i> Get Service</button>
+          </div>
+          <div class="container">
+            <img class="img-fluid w-75 my-4 ms-auto" src="https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HH">
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     
   </body>
